@@ -10,10 +10,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: tgymnich/fork-sync@v1.4
+      - uses: tgymnich/fork-sync@v1.6
         with:
           owner: Ren0503
           token: ${{ secrets.PERSONAL_TOKEN }}
-          base: master
           head: master
+          base: master
+          merge_method: merge
+          ignore_fail: true
           auto_approve: true
+          auto_merge: true
