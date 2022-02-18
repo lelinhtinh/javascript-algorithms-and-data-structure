@@ -33,10 +33,9 @@ Cấu trúc dữ liệu là một phương thức tổ chức và lưu trữ d�
 
 ## Giải thuật
 
-Giải thuật hay thuật toán là một đặc tả rõ ràng về cách giải quyết một vấn đề. Nó là một tập hợp các quy tắc xác định chính xác một chuỗi hoạt động.
+Giải thuật hay thuật toán là một tập hợp hữu hạn các hướng dẫn được xác định rõ ràng, có thể thực hiện được bằng máy tính, thường để giải quyết một lớp vấn đề hoặc để thực hiện một phép tính.
 
 `B` - Beginner (Cơ bản), `A` - Advanced (Nâng cao)
-
 
 ### Algorithms by Topic
 
@@ -60,8 +59,8 @@ Giải thuật hay thuật toán là một đặc tả rõ ràng về cách gi�
   * `B` [Euclidean Distance](src/algorithms/math/euclidean-distance) - khoảng cách giữa hai điểm/vector/ma trận.
   * `A` [Integer Partition](src/algorithms/math/integer-partition)
   * `A` [Square Root](src/algorithms/math/square-root) - phương thức Newton.
-  * `A` [Liu Hui π Algorithm](src/algorithms/math/liu-hui) - tính gần đúng π dựa trên N-gons
-  * `A` [Discrete Fourier Transform](src/algorithms/math/fourier-transform) - phép biến đổi Fourier.
+  * `A` [Liu Hui π Algorithm](src/algorithms/math/liu-hui) - tính gần đúng π dựa trên N-gons(Pending)
+  * `A` [Discrete Fourier Transform](src/algorithms/math/fourier-transform) - phép biến đổi Fourier.(Pending)
 * **Tập hợp (Sets)**
   * `B` [Cartesian Product](src/algorithms/sets/cartesian-product) - tích Descartes.
   * `B` [Fisher–Yates Shuffle](src/algorithms/sets/fisher-yates) - thuật toán ngẫu nhiên không trùng.
@@ -71,17 +70,17 @@ Giải thuật hay thuật toán là một đặc tả rõ ràng về cách gi�
   * `A` [Longest Common Subsequence](src/algorithms/sets/longest-common-subsequence) (LCS)
   * `A` [Longest Increasing Subsequence](src/algorithms/sets/longest-increasing-subsequence)
   * `A` [Shortest Common Supersequence](src/algorithms/sets/shortest-common-supersequence) (SCS)
-  * `A` [Knapsack Problem](src/algorithms/sets/knapsack-problem) 
-  * `A` [Maximum Subarray](src/algorithms/sets/maximum-subarray) 
-  * `A` [Combination Sum](src/algorithms/sets/combination-sum) 
+  * `A` [Knapsack Problem](src/algorithms/sets/knapsack-problem) (Pending)
+  * `A` [Maximum Subarray](src/algorithms/sets/maximum-subarray) (Pending)
+  * `A` [Combination Sum](src/algorithms/sets/combination-sum) (Pending)
 * **Chuỗi (Strings)**
   * `B` [Hamming Distance](src/algorithms/string/hamming-distance) - khoảng cách Hamming
   * `A` [Levenshtein Distance](src/algorithms/string/levenshtein-distance) - khoảng cách Levenshtein
-  * `A` [Knuth–Morris–Pratt Algorithm](src/algorithms/string/knuth-morris-pratt) (Thuật toán KMP) - tìm kiếm chuỗi con (so sánh mẫu)
-  * `A` [Z Algorithm](src/algorithms/string/z-algorithm) - tìm kiếm chuỗi con (so sánh mẫu)
-  * `A` [Rabin Karp Algorithm](src/algorithms/string/rabin-karp) - tìm kiếm chuỗi con
-  * `A` [Longest Common Substring](src/algorithms/string/longest-common-substring)
-  * `A` [Regular Expression Matching](src/algorithms/string/regular-expression-matching)
+  * `A` [Knuth–Morris–Pratt Algorithm](src/algorithms/string/knuth-morris-pratt) (Thuật toán KMP) - tìm kiếm chuỗi con (so sánh mẫu)(Pending)
+  * `A` [Z Algorithm](src/algorithms/string/z-algorithm) - tìm kiếm chuỗi con (so sánh mẫu)(Pending)
+  * `A` [Rabin Karp Algorithm](src/algorithms/string/rabin-karp) - tìm kiếm chuỗi con(Pending)
+  * `A` [Longest Common Substring](src/algorithms/string/longest-common-substring)(Pending)
+  * `A` [Regular Expression Matching](src/algorithms/string/regular-expression-matching)(Pending)
 * **Thuật toán tìm kiếm (Searches)**
   * `B` [Linear Search](src/algorithms/search/linear-search)
   * `B` [Jump Search](src/algorithms/search/jump-search) (or Block Search) - tìm kiếm trong mảng đã sắp xếp.
@@ -107,28 +106,28 @@ Giải thuật hay thuật toán là một đặc tả rõ ràng về cách gi�
   * `B` [Depth-First Search](src/algorithms/graph/depth-first-search) (DFS)
   * `B` [Breadth-First Search](src/algorithms/graph/breadth-first-search) (BFS)
   * `B` [Kruskal’s Algorithm](src/algorithms/graph/kruskal) - tìm cây con nhỏ nhất của một đồ thị vô hướng có trọng số.
-  * `A` [Dijkstra Algorithm](src/algorithms/graph/dijkstra) - tìm đường đi ngắn nhât của một đồ thị có hướng không trọng số.
-  * `A` [Bellman-Ford Algorithm](src/algorithms/graph/bellman-ford) - tính các đường đi ngắn nhất trong một đồ thị có hướng có trọng số
-  * `A` [Floyd-Warshall Algorithm](src/algorithms/graph/floyd-warshall) -  tìm đường đi ngắn nhât của một đồ thị có hướng dựa trên đỉnh trung gian.
-  * `A` [Detect Cycle](src/algorithms/graph/detect-cycle) - cho cả đồ thị có hướng và vô hướng (DFS and Disjoint Set based versions)
-  * `A` [Prim’s Algorithm](src/algorithms/graph/prim) - giống thuật toán Kruskal's.
-  * `A` [Topological Sorting](src/algorithms/graph/topological-sorting) - phương thức DFS.
-  * `A` [Articulation Points](src/algorithms/graph/articulation-points) - thuật toán của Tarjan(dựa trên DFS)
+  * `A` [Dijkstra Algorithm](src/algorithms/graph/dijkstra) - tìm đường đi ngắn nhât của một đồ thị có hướng không trọng số.(Pending)
+  * `A` [Bellman-Ford Algorithm](src/algorithms/graph/bellman-ford) - tính các đường đi ngắn nhất trong một đồ thị có hướng có trọng số. (Pending)
+  * `A` [Floyd-Warshall Algorithm](src/algorithms/graph/floyd-warshall) -  tìm đường đi ngắn nhât của một đồ thị có hướng dựa trên đỉnh trung gian. (Pending)
+  * `A` [Detect Cycle](src/algorithms/graph/detect-cycle) - cho cả đồ thị có hướng và vô hướng (DFS and Disjoint Set based versions). (Pending)
+  * `A` [Prim’s Algorithm](src/algorithms/graph/prim) - giống thuật toán Kruskal's. (Pending)
+  * `A` [Topological Sorting](src/algorithms/graph/topological-sorting) - phương thức DFS. (Pending)
+  * `A` [Articulation Points](src/algorithms/graph/articulation-points) - thuật toán của Tarjan(dựa trên DFS). (Pending)
   * `A` [Bridges](src/algorithms/graph/bridges)
-  * `A` [Eulerian Path and Eulerian Circuit](src/algorithms/graph/eulerian-path) - giải thuật Fleury
-  * `A` [Hamiltonian Cycle](src/algorithms/graph/hamiltonian-cycle) - Đi qua mọi đỉnh chính xác một lần.
-  * `A` [Strongly Connected Components](src/algorithms/graph/strongly-connected-components) - giải thuật Kosaraju
-  * `A` [Travelling Salesman Problem](src/algorithms/graph/travelling-salesman) - đường đi ngắn nhất qua mọi điểm và trở về vị trí ban đầu.
+  * `A` [Eulerian Path and Eulerian Circuit](src/algorithms/graph/eulerian-path) - giải thuật Fleury(Pending)
+  * `A` [Hamiltonian Cycle](src/algorithms/graph/hamiltonian-cycle) - Đi qua mọi đỉnh chính xác một lần.(Pending)
+  * `A` [Strongly Connected Components](src/algorithms/graph/strongly-connected-components) - giải thuật Kosaraju(Pending)
+  * `A` [Travelling Salesman Problem](src/algorithms/graph/travelling-salesman) - đường đi ngắn nhất qua mọi điểm và trở về vị trí ban đầu.(Pending)
 * **Mã hoá**
   * `B` [Polynomial Hash](src/algorithms/cryptography/polynomial-hash) - hàm băm dựa trên đa thức
   * `B` [Rail Fence Cipher](src/algorithms/cryptography/rail-fence-cipher) - mã hoá bằng phương pháp chuyển vị.
   * `B` [Caesar Cipher](src/algorithms/cryptography/caesar-cipher) -  mã hoá bằng phương pháp thay thế.
   * `B` [Hill Cipher](src/algorithms/cryptography/hill-cipher) - má hoá bằng phương pháp tuyến tính.
-* **Máy học**
+* **Máy học(Pending)**
   * `B` [NanoNeuron](https://github.com/trekhleb/nano-neuron) - 7 hàm JS đơn giản minh họa cách máy móc thực sự có thể học (truyền tiến / lùi)
   * `B` [k-NN](src/algorithms/ml/knn) - thuật toán K láng giềng gần nhất
   * `B` [k-Means](src/algorithms/ml/k-means) - thuật toán phân cụm k-Means
-* **Xứ lý hình ảnh**
+* **Xứ lý hình ảnh(Pending)**
   * `B` [Seam Carving](src/algorithms/image-processing/seam-carving) - thuật toán thay đổi kích thước hình ảnh.
 * **Khác**
   * `B` [Tower of Hanoi](src/algorithms/others/hanoi-tower) - bài toán tháp Hà Nội.
@@ -158,7 +157,7 @@ Mô hình thuật toán là một phương pháp hoặc cách tiếp cận chung
   * `A` [Dijkstra Algorithm](src/algorithms/graph/dijkstra) 
   * `A` [Prim’s Algorithm](src/algorithms/graph/prim)
   * `A` [Kruskal’s Algorithm](src/algorithms/graph/kruskal)
-* **Giải thuật chia để trị** - chia nhỏ vấn đề và giải quyết các phần nhỏ đấy.
+* **Giải thuật chia để trị** - chia nhỏ vấn đề và giải quyết các vấn đề nhỏ đấy.
   * `B` [Binary Search](src/algorithms/search/binary-search)
   * `B` [Tower of Hanoi](src/algorithms/others/hanoi-tower)
   * `B` [Pascal's Triangle](src/algorithms/math/pascal-triangle)
@@ -191,7 +190,7 @@ Mô hình thuật toán là một phương pháp hoặc cách tiếp cận chung
   * `A` [Bellman-Ford Algorithm](src/algorithms/graph/bellman-ford)
   * `A` [Floyd-Warshall Algorithm](src/algorithms/graph/floyd-warshall)
   * `A` [Regular Expression Matching](src/algorithms/string/regular-expression-matching)
-* **Giải thuật quay lùi** - tương tự brute force ta cũng tìm tất cả các khả năng nhưng trong quá trình tìm kiếm, nếu ta gặp một hướng lựa chọn không thỏa mãn, ta quay lui về điểm lựa chọn nơi có các hướng khác và thử hướng lựa chọn tiếp theo. Khi đã thử hết các lựa chọn xuất phát từ điểm lựa chọn đó, ta quay lại điểm lựa chọn trước đó và thử hướng lựa chọn tiếp theo tại đó. Quá trình tìm kiếm thất bại khi không còn điểm lựa chọn nào nữa
+* **Giải thuật quay lùi** - tương tự brute force ta cũng tìm tất cả các khả năng nhưng trong quá trình tìm kiếm, nếu ta gặp một hướng lựa chọn không thỏa mãn, ta quay lùi về điểm lựa chọn nơi có các hướng khác và thử hướng lựa chọn tiếp theo. Khi đã thử hết các lựa chọn xuất phát từ điểm lựa chọn đó, ta quay lại điểm lựa chọn trước đó và thử hướng lựa chọn tiếp theo tại đấy. Quá trình tìm kiếm thất bại khi không còn điểm lựa chọn nào nữa.
   * `B` [Jump Game](src/algorithms/others/jump-game)
   * `B` [Unique Paths](src/algorithms/others/unique-paths)
   * `B` [Power Set](src/algorithms/sets/power-set)
@@ -199,12 +198,12 @@ Mô hình thuật toán là một phương pháp hoặc cách tiếp cận chung
   * `A` [N-Queens Problem](src/algorithms/others/n-queens)
   * `A` [Knight's Tour](src/algorithms/others/knight-tour)
   * `A` [Combination Sum](src/algorithms/sets/combination-sum) 
-* **Giải thuật nhánh cận** - ghi nhớ giải pháp chi phí thấp nhất được tìm thấy ở mỗi giai đoạn của tìm kiếm quay lùi, và sử dụng chi phí của giải pháp chi phí thấp nhất được tìm thấy như là một ràng buộc thấp hơn về chi phí của một giải pháp chi phí thấp nhất cho vấn đề, để loại bỏ các giải pháp với chi phí lớn hơn giải pháp chi phí thấp nhất được tìm thấy cho đến nay. 
+* **Giải thuật nhánh cận** - ghi nhớ chi phí thấp nhất được tìm thấy ở các giải pháp của giải thuật quay lùi, và sự dụng chi phí đấy như là một ràng buộc để loại bỏ các giải pháp có chi phí lớn hơn. Nói các khác giải thuật nhánh cận là tối ưu của giải thuật quay lùi.
 
 ### Ký hiệu O lớn
 
-*Ký hiệu O* được sử dụng để phân loại các thuật toán theo cách thời gian chạy hoặc yêu cầu không gian của chúng phát triển khi kích thước đầu vào tăng lên.
-Trên biểu đồ dưới đây, bạn có thể tìm thấy hầu hết các thứ tự tăng trưởng phổ biến của các thuật toán được chỉ định trong ký hiệu Big O.
+*Ký hiệu O* được sử dụng để phân loại các thuật toán theo cách thời gian thực thi hoặc yêu cầu không gian bổ sung của chúng.
+Trong biểu đồ dưới đây, bạn có thể thấy thứ tự phát triển của hầu hết các thuật toán phổ biến được chỉ định trong ký hiệu Big O.
 
 ![Big O graphs](./assets/big-o-graph.png)
 
