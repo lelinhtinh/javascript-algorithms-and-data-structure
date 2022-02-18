@@ -12,6 +12,8 @@ jobs:
     steps:
       - uses: tgymnich/fork-sync@v1.4
         with:
+          owner: Ren0503
           token: ${{ secrets.PERSONAL_TOKEN }}
           base: master
           head: master
+          auto_approve: true
